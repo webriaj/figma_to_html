@@ -16,22 +16,24 @@ li{
  /* Start Nav */
 
 .nav-link{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto';
     padding: 5px 8px;
     margin: 0;
+    font-weight: 400;
 }
 .nav-link:hover,.active{
     color:rgba(40, 83, 177, 1)!important;
 }
 .sign-up a{
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: rgba(247, 60, 107, 1);
     border: 1px solid rgba(247, 60, 107, 1);
     padding: 5px 8px;
     border-radius: 4px;
+    font-weight: 400;
 }
 .sign-up a:hover{
     color: aliceblue;
@@ -53,20 +55,21 @@ header{
 .hero-content h2{
     color: rgba(55, 63, 65, 1);
     font-family: 'Roboto';
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 500;
     text-transform: capitalize;
 }
 .hero-content p{
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
 }
 .hero-content a{
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(247, 60, 107, 1);
     border: 1px solid rgba(247, 60, 107, 1);
-    padding: 6px 8px;
+    padding: 10px 15px;
     border-radius: 6px;
+    font-weight: 500;
 }
 .hero-content a:hover{
     background-color: rgba(247, 60, 107, 1);
@@ -76,9 +79,9 @@ header{
 }
 
 .colum p{
-    font-size: 16px;
-    font-weight: 300;
-   padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+   padding: 20px;
    border-radius: 6px;
 }
 .colum p:hover{
@@ -97,14 +100,14 @@ header{
     height: 65px;
     position: absolute;
     left: 0;
-    top: 115%;
+    top: 100%;
 }
 
 #third-section{
     background-color: rgba(151, 234, 185, 1);
 }
 .third-content h2{
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(79, 80, 80, 1);
 }
 .doodle-two{
@@ -116,11 +119,18 @@ header{
 }
 #fourth-sec{
     position: absolute;
-    margin-top: -27%;
+    margin-top: -35%;
 }
+.cycle-img{
+    width: 545px;
+    margin-left: 77%;
+    margin-top: 31%;
+}
+
 .service-content{
-    font-size: 16px;
-    font-weight: 300;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 .doodle-three{
@@ -129,30 +139,30 @@ header{
     position: absolute;
     right: 3.5%;
 }
-.sixth-content h4{
-    font-size: 8px;
+.sixth-content h5{
+    font-size: 25px;
     font-weight: 400;
 }
 .sixth-content h2{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 500;
 }
 .sixth-content p{
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 1.5;
 }
 #subscribe-sec{
     background-color: rgba(255, 163, 171, 1);
-    height: 160px;
+height: 285px;
 }
 .subscribe-img{
     position: relative;
-    top: -180px;
+    top: -217px;
     
 }
 .subscribe-title{
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.5;
     color: rgba(55, 63, 65, 1);
@@ -161,19 +171,20 @@ header{
     border: none;
     background-color: white;
     border-radius: 4px;
-    padding: 5px 8px;
-    font-size: 16px;
+    padding: 7px 20px;
+    font-size: 18px;
     font-weight: 300;
+    width: 70%;
 }
 
 .form-field input:nth-child(2){
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgba(247, 60, 107, 1);
     border: 1px solid rgba(247, 60, 107, 1);
-    padding: 5px 8px;
+    padding: 6px 12px;
     border-radius: 4px;
 
 }
@@ -182,38 +193,38 @@ input:focus{
 }
 
 .card-title{
-    font-size: 16px;
+    font-size: 30px;
 }
 .card-text{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .card-btm {
     background:rgba(247, 60, 107, 1);
     color: white;
-    padding: 5px 13px;
+    padding: 10px 20px;
     border-radius: 0px 0px 6px 6px;
 }
 .card-btm-one {
     background:rgba(151, 234, 185, 1);
     color: white;
-    padding: 5px 13px;
+    padding: 10px 20px;
     border-radius: 0px 0px 6px 6px;
 }
 .card-btm-two {
     background:rgba(255, 210, 129, 1);
     color: white;
-    padding: 5px 13px;
+    padding: 10px 20px;
     border-radius: 0px 0px 6px 6px;
 }
 .card-btm a,.card-btm-one a,.card-btm-two a {
     color: rgba(55, 63, 65, 1);
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
     
 }
 .box-wrap{
-padding: 15px;
+padding: 20px;
 }
 .full-box{
     border-radius:6px;
@@ -222,7 +233,7 @@ ol, ul {
     padding-left: 0rem;
 }
 ul li{
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.5;
     cursor: pointer;
 }
@@ -234,7 +245,7 @@ footer{
     cursor: pointer;
 }
 .footer-menu a{
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
     font-weight: 500;
 }
