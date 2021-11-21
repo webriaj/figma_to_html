@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+/* Default Css */
+a{
+    text-decoration: none;
+    color: rgba(55, 63, 65, 1);
+}
+li{
+    list-style: none;
+}
+/* End default css */
+
+ /* Start Nav */
+
+.nav-link{
+    font-size: 12px;
+    font-family: 'Roboto';
+    padding: 5px 8px;
+    margin: 0;
+}
+.nav-link:hover,.active{
+    color:rgba(40, 83, 177, 1)!important;
+}
+.sign-up a{
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-decoration: none;
+    color: rgba(247, 60, 107, 1);
+    border: 1px solid rgba(247, 60, 107, 1);
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+.sign-up a:hover{
+    color: aliceblue;
+    background-color: rgba(247, 60, 107, 1);
+    transition: 0.5s;
+}
+.navbar-brand{
+    color: rgb(69, 31, 138)!important;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+/* Header  */
+header{
+    background-color: rgba(255, 210, 129, 1);
+}
+.hero-content h2{
+    color: rgba(55, 63, 65, 1);
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.hero-content p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.hero-content a{
+    font-size: 12px;
+    color: rgba(247, 60, 107, 1);
+    border: 1px solid rgba(247, 60, 107, 1);
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+.hero-content a:hover{
+    background-color: rgba(247, 60, 107, 1);
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.colum p{
+    font-size: 12px;
+    font-weight: 300;
+   padding: 15px;
+   border-radius: 6px;
+}
+.colum p:hover{
+    background-color: rgba(40, 83, 177, 1);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.circualar-image{
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
+.doodle-one{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    top: 115%;
+}
+
+#third-section{
+    background-color: rgba(151, 234, 185, 1);
+}
+.third-content h2{
+    font-size: 25px;
+    color: rgba(79, 80, 80, 1);
+}
+.doodle-two{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: -3.5%;
+
+}
+#fourth-sec{
+    position: absolute;
+    margin-top: -27%;
+}
+.service-content{
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.doodle-three{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 3.5%;
+}
+.sixth-content h4{
+    font-size: 8px;
+    font-weight: 400;
+}
+.sixth-content h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.sixth-content p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#subscribe-sec{
+    background-color: rgba(255, 163, 171, 1);
+    height: 160px;
+}
+.subscribe-img{
+    position: relative;
+    top: -180px;
+    
+}
+.subscribe-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(55, 63, 65, 1);
+}
+.form-field input:nth-child(1){
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.form-field input:nth-child(2){
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(247, 60, 107, 1);
+    border: 1px solid rgba(247, 60, 107, 1);
+    padding: 5px 8px;
+    border-radius: 4px;
+
+}
+input:focus{
+    outline: none;
+}
+
+.card-title{
+    font-size: 16px;
+}
+.card-text{
+    font-size: 12px;
+}
+
+.card-btm {
+    background:rgba(247, 60, 107, 1);
+    color: white;
+    padding: 5px 13px;
+    border-radius: 0px 0px 6px 6px;
+}
+.card-btm-one {
+    background:rgba(151, 234, 185, 1);
+    color: white;
+    padding: 5px 13px;
+    border-radius: 0px 0px 6px 6px;
+}
+.card-btm-two {
+    background:rgba(255, 210, 129, 1);
+    color: white;
+    padding: 5px 13px;
+    border-radius: 0px 0px 6px 6px;
+}
+.card-btm a,.card-btm-one a,.card-btm-two a {
+    color: rgba(55, 63, 65, 1);
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.box-wrap{
+padding: 15px;
+}
+.full-box{
+    border-radius:6px;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+ul li{
+    font-size: 12px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(151, 234, 185, 1);
+}
+.pay-img{
+    width: 50px;
+    cursor: pointer;
+}
+.footer-menu a{
+    font-size: 12px;
+    padding: 8px;
+    font-weight: 500;
+}
+.footer-menu{
+    border-bottom: 1px solid rgba(79, 80, 80, 0.308);
+}
+.doodle-six{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+
+}
+.doodle-last{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 0;
+}
